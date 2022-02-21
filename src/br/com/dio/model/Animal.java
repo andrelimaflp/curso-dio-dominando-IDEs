@@ -21,6 +21,7 @@ public class Animal {
     }
 
     public String getTipoAnimal() {
+
         return tipoAnimal;
     }
 
@@ -29,10 +30,12 @@ public class Animal {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public void setNome(String nome) {
+
         this.nome = nome;
     }
 
@@ -41,14 +44,17 @@ public class Animal {
     }
 
     public void setCor(String cor) {
+
         this.cor = cor;
     }
 
     public Integer getIdade() {
+
         return idade;
     }
 
     public void setIdade(Integer idade) {
+
         this.idade = idade;
     }
 
@@ -67,11 +73,10 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
-                "tipoAnimal='" + tipoAnimal + '\'' +
-                ", nome='" + nome + '\'' +
-                ", cor='" + cor + '\'' +
-                ", idade=" + idade +
-                '}';
+        return "Informações sobre o animal: " +
+                "\n Tipo do Animal = " + tipoAnimal + " " +
+                "\n nome = " + nome + " " +
+                "\n cor = " + cor + " " +
+                "\n idade = " + idade + " anos ";
     }
 }
